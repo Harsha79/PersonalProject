@@ -1,32 +1,31 @@
-<html>
-<body>
-test
-<h1 style="color:blue;">LOGIN PAGE</h1>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="login.css">
+  </head>
+  <body>
+    <div class="center">
+      <h1>Login</h1>
+      <form method="post">
+        <div class="txt_field">
+          <input type="text" required>
+          <span></span>
+          <label>Username</label>
+        </div>
+        <div class="txt_field">
+          <input type="password" required>
+          <span></span>
+          <label>Password</label>
+        </div>
+        <div class="pass">Forgot Password?</div>
+        <input type="submit" value="Login">
+        <div class="signup_link">
+          Not yet to login? <a href="#">Signup</a>
+        </div>
+      </form>
+    </div>
 
-<p style="color:red;">Provide Details</p> 
-<form action="action_page.php" method="post">
-    <div class="imgcontainer">
-      <img    align="middle" src="http://wallpapercave.com/wp/wp1831078.jpg" width="100" height="100" alt="Avatar" class="avatar">
-
-    </div>
-  
-    <div class="container">
-      <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
-  
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
-  
-      <button type="submit">Login</button>
-      <label>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-      </label>
-    </div>
-  
-    <div class="container" style="background-color:whitesmoke">
-      <button type="button" class="cancelbtn">Cancel</button>
-      <span class="psw">Forgot <a href="#">password?</a></span>
-    </div>
-  </form> 
-</body>
-</html> 
+  </body>
+</html>
